@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="print" href="print.css">
+
+    <script src="./js/font_size.js"></script>
+
+    <title>Bábeli Könyvtár | Fantasy</title>
+</head>
+<body>
+    <header>
+        <nav class="rejtett">
+            <h2>Ugrás az oldalon belül</h2>
+            <p><a href="#tartalom">Ugrás a tartalomra</a></p>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand special-link" href="#"><h1>Bábeli Könyvtár - Fantasy</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Kezdőlap</a>
+                <a class="nav-link active" aria-current="page" href="#">Fantasy</a>
+                <a class="nav-link" href="sci-fi.html">Sci-Fi</a>
+                <a class="nav-link" href="konyvajanl.html">Könyvajánlás</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Betűméret
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" onclick="resize_text(1);">Növelés</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="resize_text(-1);">Csökkentés</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="reset_text();">Alapértelmezett</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <main id="tartalom">
+        <div class="container">
+
+            <article>
+                <div class="row">
+                    <h3>Robert Jordan: <a href="https://www.goodreads.com/book/show/21457465-a-vil-g-szeme-i-k-tet?from_search=true&from_srp=true&qid=ZGpyiaMx2X&rank=2" target="_blank" class="link">A világ szeme</a></h3>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="./media/wheelOfTime.png" target="_blank">
+                            <img src="./media/wheelOfTime_small.png" alt="Világ szeme könyvborító" class="book">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <p><b>Írta:</b> Robert Jordan</p>
+                        <p><b>Megjelenés:</b> 1990</p>
+                        <p><b>Kor ajánlás:</b> 15 éves kortól</p>
+                        <p><b>Hasonló könyvek:</b> Brandon Sanderson: A Végső Birodalom</p>
+                        <p><b>Oldalszám:</b> 800</p>
+                        <figure>
+                            <figcaption>
+                                <b>Filmesítés:</b>
+                            </figcaption>
+                            <video controls poster="./media/WheelOfTimeVideo.png">
+                                <source src="./media/WheelOfTimeVideo.mp4" type="video/mp4"> 
+                            </video>
+                        </figure>
+                        <a href="wheelOfTime.xhtml" class="description-link" target="_blank"><p>[Videó leírás]</p></a>
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <p>Az Idő Kereke forog, egymást váltják a korok. A Legendák Korának az Árnyék háborúja vetett véget, sötétségbe süllyedt a világ. Az Árnyékot ugyan sikerült visszazárni börtönébe, de most, évezredek múltán ismét kitörni készül. Csakhogy hol vannak már a múlt hihetetlen hatalmú aes seadai-ai, akik megállíthatnák? A Próféciák azt jósolják, eljön majd a Sárkány, a Napkelte Ura, hogy megküzdjön a gonosszal. Csakhogy azt is hozzáteszik, eközben iszonyatosabb pusztulást hoz a világra, mint amit az valaha látott. Lehet, hogy itt a világvége? Lehet, hogy az Idő Kereke hamarosan megáll? A Sötét Úr minden követ megmozgat, hogy megkaparintson három fiatalembert, akik a Folyóköz egy békés, független, isten háta mögötti falvában élnek. Miért lehet ilyen fontos neki három vidéki fiú?</p>
+                        <br>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+            <article>
+                <div class="row">
+                    <h3>Will Wight: <a href="https://www.goodreads.com/book/show/30558257-unsouled?from_search=true&from_srp=true&qid=vvihvUqU4d&rank=1" target="_blank" class="link">Unsouled</a></h3>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <p>A Szent Harcosok előtt több ezer út áll és mindegyik a hatalomhoz vezet, az utak között egy a közös a lelkük által befolyásolják a világot körülöttük. Lindon lelketlen, klánja pedig nem hajlandó tanítani. Egy nap viszont szembe kell nézni falujának sorsával és döntést kell hoznia Lindon-nak. Elfogadja sorsát és meghal a falujával együtt, vagy a saját útján jut hatalomhoz.</p>
+                        <br>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <p><b>Írta:</b> Will Wight</p>
+                        <p><b>Megjelenés:</b> 2016</p>
+                        <p><b>Kor ajánlás:</b> 12 éves kortól</p>
+                        <p><b>Hasonló könyvek:</b>  John Bierce: Into the Labyrinth</p>
+                        <p><b>Oldalszám:</b> 294</p>
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="./media/Unsouled.png" target="_blank">
+                            <img src="./media/Unsouled_small.png" alt="Unsouled könyvborító" class="book">
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="row">
+                    <h3>Sarah J. Maas: <a href="https://www.goodreads.com/book/show/18488945-throne-of-glass---vegtr-n?ac=1&from_search=true&qid=49UXlQBxpx&rank=1" target="_blank" class="link">Üvegtrón</a></h3>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                        <a href="./media/ThroneOfGlass.png" target="_blank">
+                            <img src="./media/ThroneOfGlass_small.png" alt="Üvegtrón könyvborító" class="book">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        
+                        <p><b>Írta:</b> Sarah J. Maas</p>
+                        <p><b>Megjelenés:</b> 2012</p>
+                        <p><b>Kor ajánlás:</b> 14 éves kortót</p>
+                        <p><b>Hasonló könyvek:</b> Sarah J. Maas: Tüskék és Rózsák udvara</p>
+                        <p><b>Oldalszám:</b> 406</p>
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <p>Az ismert világ leghíresebb orgyilkosa. Celaena Sardothien gyönyörű és halálos. A sors nagy dolgokat tartogat a lenyűgöző, ifjú nő számára. Távolvég sötét, nyomorúsággal teli sóbányáinak mélyén egy megviselt, tizennyolc éves lány robotol a rabszolgák között. Életfogytiglanig tartó kényszermunkára ítélték. Hiába képezték ki a földrész legjobb orgyilkosai. Hiába lett a halálos mesterség leghíresebb művésze. Elkövetett egy végzetes hibát. Elfogták.</p>
+                        <br>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <hr class="finish">
+        <i>Készítette: Barczikay Kristóf - 2022</i>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

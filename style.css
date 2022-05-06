@@ -1,0 +1,216 @@
+body{
+    font-size: 1.2em;
+
+}
+
+.rejtett {position:absolute; left:-9999px;}
+
+
+main{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+footer{
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+aside{
+    padding-top: 5em;
+}
+
+hr{
+    border-style: dotted;
+}
+
+.finish{
+    border: 1px solid black;
+}
+
+h3{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.img_right{
+    text-align: right;
+}
+
+.img_center{
+    text-align: center;
+}
+
+.txt_left{
+    text-align: left;
+}
+
+.txt_right{
+    text-align: right;
+}
+
+table{
+    width: 80%;
+}
+
+caption{
+    caption-side: top;
+}
+
+details{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+.center_align{
+    text-align: center;
+}
+
+.menu{
+    padding-bottom: 2em;
+}
+
+form{
+    border: 1px solid black;
+    padding: 1em;
+    width: 75%;
+}
+
+.send_data{
+    text-align: center;
+}
+
+video{
+    width: 80%;
+    height: auto;
+}
+
+.book-type{
+    display: inline-block;
+    padding-bottom: 1.5em;
+}
+
+.book-type-p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.writer{
+    padding-bottom: 0.8em;
+}
+
+.book{
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    height: auto;
+}
+
+.front_book{
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+}
+
+a:hover, a:active{
+    background-color: rgb(173, 173, 173);
+}
+
+.link{
+    color: black;
+    border-bottom: 3px solid rgb(236, 196, 121);
+    text-decoration: none;
+}
+
+.link:visited{
+    color:gray
+}
+  
+.link:hover, .link:active {
+    background-color: rgb(236, 196, 121);
+    color: white;
+}
+
+.special-link:hover, .special-link:active{
+    background-color: inherit;
+}
+
+.description-link{
+    color: black;
+}
+
+.description-link:visited{
+    color: gray;
+}
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: blue;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card-body{
+    background-color: rgb(244, 226, 194);
+}
+
+
+#ToG{
+    background-image: url(./media/ToGBg.jpg);
+    background-position: 2em -1em;
+    height: 3em;
+    padding-top: 0.7em;
+}
+
+#WoT{
+    background-image: url(./media/WoTGb.png);
+    background-position: 3em 9em;
+    height: 3em;
+    padding-top: 0.7em;
+    color: gold;
+
+}
+
+#WoK{
+    background-image: url(./media/WoKBg.png);
+    background-position: -1em 10em;
+    height: 3em;
+    padding-top: 0.7em;
+
+}
+
+.transcription{
+    font-style: italic;
+}
+

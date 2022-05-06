@@ -1,0 +1,46 @@
+@media print{
+
+    header, footer, video{
+        display:none;
+    }
+
+    main{
+        margin: 0em;
+    }
+    
+    .book{
+        height: 15em;
+        width: auto;
+    }
+
+    .front_book{
+        height: 15em;
+        width: auto;
+    }
+    article{
+        text-align: center;
+    }
+
+    #ToK{
+        color: black;
+        padding-top: 0.1em;
+        height: auto;
+    }
+
+    #WoK{
+        color: black;
+        padding-top: 0em;
+        height: auto;
+    }
+    
+    #WoT{
+        color: black;
+        padding-top: 0em;
+        height: auto;
+    }
+
+    form{
+        width: 100%;
+    }
+
+}
